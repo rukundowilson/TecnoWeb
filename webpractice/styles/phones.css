@@ -1,0 +1,90 @@
+.bunner{
+    width: 100%;
+    height: 100vh;
+    background-color: none;
+}
+.header{
+    position: unset;
+}
+.cover{
+    background-image: linear-gradient(rgba(4,7,39,0.5),rgba(4,7,39,0.5)),url(../media/images/product-chapter_banner_0502.webp);
+    height: 350px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.major{
+    padding: 80px 0 0 0;
+}
+.properties{
+    height: 550px;
+    width: 180px;
+    background: #ccc;
+    align-self: flex-start;
+}
+.fbox{
+    display: flex;
+    justify-content: flex-start;
+    gap: 90px;
+}
+.properties ul{
+    padding: 10px;
+    list-style: none;
+}
+.properties ul li{
+    padding: 20px;
+}
+.properties ul li a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+.properties ul li a:hover{
+    background-color: blue;
+    cursor: pointer;
+    padding: 6px;
+    color: white;
+    border-radius: 50px;
+}
+.gbox{
+    padding: 20px;
+    padding-top: 37px;
+    display: grid;
+    grid-template-columns: repeat(2,400px);
+    column-gap: 100px;
+    row-gap: 20px;
+
+}
+.item0{
+    text-align: center;
+    background-color: #ccc;
+    box-shadow: 6px 6px 9px #ccc;
+    height: 300px;
+    transition: 0.5s ease-in-out;
+    
+
+}
+.layer{
+    width: 100%;
+    height: 90%;
+    background-color: #ffffff;
+
+    
+}
+.item0:hover{
+    opacity: .9;
+    scale: 1.05;
+    background-color: black;
+    color: #fff;
+    border: 2px solid black;
+}
+.layer img{
+    height: 100%;
+    width: 100%;
+}
+.layer img:hover{
+    height: 100%;
+    width: 100%;
+
+   
+}

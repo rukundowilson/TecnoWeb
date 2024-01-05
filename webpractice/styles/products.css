@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.products{
+    padding: 20px;
+    height: 116vh;
+    width: 100%;
+    background: #ffffff;
+    text-align: center;
+    /* position: relative;
+    top: 80px; */
+}
+.header{
+    position: unset;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    gap: 20px;
+}
+.col {
+    background: #ccc;
+    height: 250px;
+}
+.port{
+    height: 200px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 7px 7px 12px #ccc;
+    
+}
+img{
+    height: 100%;
+    width: 100%;
+}
